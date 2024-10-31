@@ -1,0 +1,26 @@
+/* Overall styling for the body, fonts, colors, etc. */
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f4;
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0; 
+}
+
+/* ... styles for navigation, sections, etc. ... */
+
+/* Example of a cool hover effect for project items */
+.project {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.project:hover {
+    transform: scale(1.1); /* Make it slightly bigger on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
